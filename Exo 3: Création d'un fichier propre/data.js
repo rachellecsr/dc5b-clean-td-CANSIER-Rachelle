@@ -1,6 +1,6 @@
 const fs = require('fs')
 const csvParser = require('csv-parser')
-
+fileURLToPath
 const readStream = fs.createReadStream('electronic-card-transactions-december-2022-csv-tables.csv')
 const writeStream = fs.createWriteStream('result.csv')
 
